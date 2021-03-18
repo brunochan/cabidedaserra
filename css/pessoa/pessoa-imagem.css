@@ -1,0 +1,21 @@
+.pessoa__imagem {
+    background-position: center;
+    border-radius: 100%;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.pessoa__imagem--sthefane {
+    background-image: url('../../img/pessoas/sthefane.jpg');
+}
+
+.pessoa__imagem--carla {
+    background-image: url('../../img/pessoas/carla.jpg');
+}
+
+.pessoa__imagem--livia {
+    background-image: url(../../img/pessoas/livia.jpg);
+}

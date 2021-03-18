@@ -1,0 +1,146 @@
+<doctype html>
+    <html lang="pt-br">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/9562c886e8.js" crossorigin="anonymous"></script>
+	    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/cabecalho.css">
+        <link rel="stylesheet" href="css/cabecalho/cabecalho-logo.css">
+        <link rel="stylesheet" href="css/cabecalho/cabecalho-barra-nav.css">
+        <link rel="stylesheet" href="css/conteudo/conteudo__titulo.css">
+        <link rel="stylesheet" href="css/conteudo/conteudo-capa.css">
+        <link rel="stylesheet" href="css/conteudo/conteudo-produtos.css">
+        <link rel="stylesheet" href="css/conteudo/conteudo-nav.css">
+        <link rel="stylesheet" href="css/conteudo/produtos.css">
+        <link rel="stylesheet" href="css/rodape.css">
+        <link rel="stylesheet" href="css/quem-somos/quem-somos-titulo.css">
+        <link rel="stylesheet" href="css/quem-somos/quem-somos-descricao.css">
+        <link rel="stylesheet" href="css/quem-somos/quem-somos.css">
+        <link rel="stylesheet" href="css/pessoas.css">
+        <link rel="stylesheet" href="css/pessoa/pessoa.css">
+        <link rel="stylesheet" href="css/pessoa/pessoa-nome.css">
+        <link rel="stylesheet" href="css/pessoa/pessoa-imagem.css">
+        <link rel="stylesheet" href="css/pessoa/pessoa-funcao.css">
+
+        <title>cabide da serra</title>
+
+        
+    </head>
+
+    <body>
+        <header class="cabecalho">
+            <div class="container">
+                <button class="menu-abrir">Abre Menu</button>
+
+                <div class="cabecalho__logo">
+                    <img src="img/cabideLogo.svg" alt="logo cabide da serra">
+                </div>
+
+                <nav class="barra-nav">
+
+                    <button class="menu-fechar">Fecha Menu</button>
+
+                    <ul class="menu-principal">
+                        <li><a href="#colecao">Coleção</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#rodape">Contato</a></li>
+                    </ul>
+
+                    <form class="busca">
+                        <input type="search" id="campo-busca">
+                        <button type="submit">Buscar</button>
+                    </form>
+                </nav>
+            </div>
+        </header>
+
+        <main class="conteudo">
+
+            <figure class="conteudo__capa">
+                <img src="img/capa.jpg">
+            </figure>
+
+            <section class="conteudo__produtos" id="colecao">
+                <h1 class="conteudo__titulo">Coleção</h1>
+                
+                <div class="conteudo__nav">
+                    <ul class="conteudo__lista">
+                        <li class="conteudo-item">
+                            <a class="conteudo-link ativo" href="#">Verão</a>
+                        </li>
+                        <li class="conteudo-item">
+                            <a class="conteudo-link" href="#">Inverno</a>
+                        </li>
+                        <li class="conteudo-item">
+                            <a class="conteudo-link" href="#">Meia Estação</a>
+                        </li>
+                    </ul>
+                </div> 
+                
+                <div class="produtos container">
+
+                    <div class="produtos__verao">
+                        <img src="img/verao/macaquinho_curto.jpg" alt="macaquinho curto" class="produtos__card__imagem">
+                        <img src="img/verao/macaquinho_longo.jpg" alt="macaquinho longo" class="produtos__card__imagem">
+                        <img src="img/verao/macaquinho_tomara_que_caia.jpg" alt="macaquinho tomara que caia" class="produtos__card__imagem">
+                        <img src="img/verao/vestido_cantao.jpg" alt="vestido cantao" class="produtos__card__imagem">
+                        <img src="img/verao/blusa_decotada.jpg" alt="blusa decotada" class="produtos__card__imagem">
+                        <img src="img/verao/conjunto1.jpg" alt="conjunto camiseta shorts" class="produtos__card__imagem">
+                        <img src="img/verao/conjunto3.jpg" alt="conjunto camiseta shorts" class="produtos__card__imagem">
+                        <img src="img/verao/conjunto2.jpg" alt="conjunto camiseta shorts" class="produtos__card__imagem">
+                    </div>
+                </div>
+            </section>
+
+            <section class="quem-somos" id="sobre">
+                <h3 class="quem-somos__titulo">Quem somos</h3>
+                <p class="quem-somos__descricao">Conheça a comunidade por trás da iniciativa</p>
+                <div class="pessoas">
+                    <div class="pessoa">
+                        <div class="pessoa__imagem pessoa__imagem--sthefane"></div>
+                        <span class="pessoa__nome">Sthefane</span>
+                        <span class="pessoa__funcao">Diretora Comercial</span>
+                    </div>
+                    <div class="pessoa">
+                        <div class="pessoa__imagem pessoa__imagem--carla"></div>
+                        <span class="pessoa__nome">Carla</span>
+                        <span class="pessoa__funcao">Presidente</span>
+                    </div>
+                    <div class="pessoa">
+                        <div class="pessoa__imagem pessoa__imagem--livia"></div>
+                        <span class="pessoa__nome">Livia</span>
+                        <span class="pessoa__funcao">Diretora de Produção</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="rodape" id="rodape">
+            <a target="_blank" href="https://www.instagram.com/cabidedaserra/">
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+            </a>
+
+            <address>
+                <strong>Cabide da Serra</strong><br>
+                Urubici - SC<br>    	   	   	
+            </address>
+
+        
+            <address>
+                Tel: (XX) XXXXX-XXXX<br>
+                Email: cabidedaserra@gmail.com
+            </address>
+        
+            <p class="rodape__copyright">&copy; Copyright 2021 - Todos os direitos reservados</p>
+        </footer>
+
+        <script src="js/menu.js"></script>
+    </body>
+</html>

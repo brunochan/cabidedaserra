@@ -1,0 +1,8 @@
+.cabecalho__logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cabecalho__logo img {    
+    width: 150px;
+}
