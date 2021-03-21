@@ -1,0 +1,13 @@
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;    
+}
+
+.produtos__verao,
+.produtos__inverno {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

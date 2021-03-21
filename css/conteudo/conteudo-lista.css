@@ -1,0 +1,9 @@
+.conteudo__lista li {
+    display: inline-flex;
+    margin-right: 4rem;
+    text-align: center;
+}
+
+.conteudo__lista li:last-child {
+    margin-right: 0;
+}
