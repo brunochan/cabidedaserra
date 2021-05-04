@@ -8,12 +8,12 @@
     width: 300px;
 }
 
-.pessoa__imagem--sthefane {
-    background-image: url('../../img/pessoas/sthefane.jpg');
-}
-
 .pessoa__imagem--carla {
     background-image: url('../../img/pessoas/carla.jpg');
+}
+
+.pessoa__imagem--sthefane {
+    background-image: url('../../img/pessoas/sthefane.jpg');
 }
 
 .pessoa__imagem--livia {
